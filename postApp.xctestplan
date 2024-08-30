@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "53E76E22-18B6-4BBE-95EC-A09D0A2E6786",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:postApp.xcodeproj",
+      "identifier" : "C97F619F2C82030D0057748E",
+      "name" : "postApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:postApp.xcodeproj",
+        "identifier" : "C97F61AF2C8203100057748E",
+        "name" : "postAppTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:postApp.xcodeproj",
+        "identifier" : "C97F61B92C8203100057748E",
+        "name" : "postAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

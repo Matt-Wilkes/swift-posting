@@ -44,6 +44,7 @@
 		C97F61BA2C8203100057748E /* postAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97F61BE2C8203100057748E /* postAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postAppUITests.swift; sourceTree = "<group>"; };
 		C97F61C02C8203100057748E /* postAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C97F61CD2C8203240057748E /* postApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = postApp.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		C97F61972C82030D0057748E = {
 			isa = PBXGroup;
 			children = (
+				C97F61CD2C8203240057748E /* postApp.xctestplan */,
 				C97F61A22C82030D0057748E /* postApp */,
 				C97F61B32C8203100057748E /* postAppTests */,
 				C97F61BD2C8203100057748E /* postAppUITests */,
