@@ -14,16 +14,17 @@ struct ContentView: View {
         VStack{
             Text("Posts").font(.title)
             List(viewModel.posts, id: \.id) { item in
-                ScrollView{
-                    VStack(alignment: .leading) {
+                VStack(alignment: .leading, spacing: 10.0) {
                         Text(item.title)
                             .font(.headline)
                             .padding(.bottom)
                         Text(item.body)
+                            
                     }
-                }
+                    .padding()
             }
             .listRowSpacing(10)
+            // task is preferred over onAppear going forward
             .task {
                 await viewModel.loadData()
             }
