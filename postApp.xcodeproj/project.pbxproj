@@ -15,7 +15,8 @@
 		C97F61BF2C8203100057748E /* postAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F61BE2C8203100057748E /* postAppUITests.swift */; };
 		C97F61C12C8203100057748E /* postAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F61C02C8203100057748E /* postAppUITestsLaunchTests.swift */; };
 		C97F61CF2C8204B00057748E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F61CE2C8204B00057748E /* Data.swift */; };
-		C97F61D12C8209D70057748E /* postsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F61D02C8209D70057748E /* postsAPI.swift */; };
+		C97F61D12C8209D70057748E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F61D02C8209D70057748E /* Post.swift */; };
+		C97F61D52C83ACAF0057748E /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F61D42C83ACAF0057748E /* PostsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		C97F61C02C8203100057748E /* postAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C97F61CD2C8203240057748E /* postApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = postApp.xctestplan; sourceTree = "<group>"; };
 		C97F61CE2C8204B00057748E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		C97F61D02C8209D70057748E /* postsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postsAPI.swift; sourceTree = "<group>"; };
+		C97F61D02C8209D70057748E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C97F61D42C83ACAF0057748E /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +102,11 @@
 		C97F61A22C82030D0057748E /* postApp */ = {
 			isa = PBXGroup;
 			children = (
-				C97F61D02C8209D70057748E /* postsAPI.swift */,
+				C97F61D02C8209D70057748E /* Post.swift */,
 				C97F61A32C82030D0057748E /* postAppApp.swift */,
 				C97F61A52C82030D0057748E /* ContentView.swift */,
 				C97F61CE2C8204B00057748E /* Data.swift */,
+				C97F61D42C83ACAF0057748E /* PostsViewModel.swift */,
 				C97F61A72C8203100057748E /* Assets.xcassets */,
 				C97F61A92C8203100057748E /* Preview Content */,
 			);
@@ -265,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97F61D12C8209D70057748E /* postsAPI.swift in Sources */,
+				C97F61D12C8209D70057748E /* Post.swift in Sources */,
+				C97F61D52C83ACAF0057748E /* PostsViewModel.swift in Sources */,
 				C97F61A62C82030D0057748E /* ContentView.swift in Sources */,
 				C97F61CF2C8204B00057748E /* Data.swift in Sources */,
 				C97F61A42C82030D0057748E /* postAppApp.swift in Sources */,
